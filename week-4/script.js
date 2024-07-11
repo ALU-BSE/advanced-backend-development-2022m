@@ -9,9 +9,9 @@ class Car {
     return this._brand;
   }
 
-  set brand(newBrand) {
-    this._brand = newBrand;
-  }
+  // set brand(newBrand) {
+  //   this._brand = newBrand;
+  // }
 
   // a method common to all cars
   startEngine() {
@@ -41,8 +41,8 @@ class ElectricCar extends Car {
   }
 }
 
-let myCar = new ElectricCar("Tesla", "100kWh");
-console.log(myCar.startEngine());  // Electric engine started
+// let myCar = new ElectricCar("Tesla", "100kWh");
+// console.log(myCar.startEngine());  // Electric engine started
 
 
 // class Vehicle{ // class Demo
@@ -81,3 +81,8 @@ console.log(myCar.startEngine());  // Electric engine started
 // console.log(myNewCar.carBrand);
 // console.log(myNewCar.enginePower);
 // // console.log(myNewCar.color);
+
+
+let myCar = new Car("Toyota");
+myCar.brand = 'Mercedes';
+console.log(myCar.brand);

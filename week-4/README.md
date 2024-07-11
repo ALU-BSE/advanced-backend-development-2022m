@@ -2,6 +2,14 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" 
 
 In ES6 (ECMAScript 2015), OOP is achieved using classes and inheritance. Here's a brief overview:
 
+# OOP Pillars
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+4. Abstraction
+   
+
+
 **Classes**: Classes are a template for creating objects. They encapsulate data with code. Class is a blueprint for an object. An example of a class declaration:
 
 ```javascript
