@@ -58,3 +58,8 @@ app.delete('/items/:id', (req, res) => {
     res.status(404).send('Item not found');
   }
 });
+
+
+module.exports = app;
+
+
